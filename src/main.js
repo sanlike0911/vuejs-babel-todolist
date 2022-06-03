@@ -2,9 +2,11 @@ import "core-js/stable";
 import "regenerator-runtime/runtime";
 
 import { createApp } from 'vue';
-import todolist from './components/todolist.vue';
+import App from './App.vue'
+import router from './router'
+import store from './store'
 
-createApp(todolist).mount("#app");
-// document.addEventListener('DOMContentLoaded', () => {
-//   createApp(todolist).mount('#app');
-// });
+createApp(App)
+    .use(router)
+    .use(store)
+    .mount("#app");
