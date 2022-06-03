@@ -1,0 +1,13 @@
+body {
+  background: #eee;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+.app {
+  text-align: center;
+}
