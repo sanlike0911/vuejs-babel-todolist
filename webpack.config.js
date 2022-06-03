@@ -5,9 +5,9 @@ const path = require('path');
 const env = process.env.NODE_ENV || 'development';
 
 module.exports = {
-  entry: './src/app.js',
+  entry: './src/main.js',
   output: {
-    filename: 'app.js',
+    filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
   },
   devtool: 'source-map',
